@@ -7,7 +7,6 @@ Current head build status:
 
 ## About 7digital
 
-
 7digital.com is an online music store operating in over 16 countries and
 offering more than 11 million high quality DRM free MP3s (320kbps) from all
 major labels and wide range of idependent labels and distributors. 7digital
@@ -37,6 +36,19 @@ npm install --save 7digital-api
 ```
 
 ### Usage
+
+**Note: this is a fork of original library that adds promisified versions of all API methods**
+
+To use promisified version, just add suffix _Promise_ to the name of the method and don't pass callback function:
+```javascript
+const api = require('7digital-api');
+const artists = new api.Artists();
+
+async function printData() {
+    const data = await artists.getReleasesPromise({ artistid: 1 });
+    console.dir(data);
+}
+```
 
 
 See the examples folder for examples of how to use this.  If you have included

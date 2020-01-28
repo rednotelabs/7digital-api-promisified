@@ -1,6 +1,7 @@
 /node_modules/
 .eprj
 .monitor
+.idea
 *.css
 *.gz
 *.swp

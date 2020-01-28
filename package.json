@@ -1,28 +1,30 @@
 {
-  "name": "7digital-api",
-  "version": "0.37.0",
-  "description": "7digital API client for nodeJS",
+  "name": "7digital-api-promisified",
+  "version": "0.38.0",
+  "description": "Promisified 7digital API client for nodeJS",
   "homepage": "https://github.com/7digital/7digital-api",
   "repository": {
     "type": "git",
-    "url": "git://github.com/7digital/7digital-api.git"
+    "url": "git://github.com/ruzicka/7digital-api-promisified.git"
   },
   "docs": {
-    "url": "https://github.com/7digital/7digital-api/blob/master/README.md"
+    "url": "https://github.com/ruzicka/7digital-api-promisified/blob/master/README.md"
   },
   "bugs": {
-    "url": "https://github.com/7digital/7digital-api/issues"
+    "url": "https://github.com/ruzicka/7digital-api-promisified/issues"
   },
   "keywords": [
     "api",
     "nodejs",
-    "7digital"
+    "7digital",
+    "promise",
+    "promisified"
   ],
   "author": "7digital Tools Team <tools@7digital.com>",
   "license": "ISC",
-  "engines": [
-    "node >= 0.10.40"
-  ],
+  "engines": {
+    "node": "~8.12.0"
+  },
   "scripts": {
     "integration-test": "./node_modules/.bin/mocha --recursive -R spec test-integration/",
     "test": "./node_modules/.bin/mocha --recursive -R spec test/"
