@@ -1,6 +1,6 @@
 {
   "name": "7digital-api-promisified",
-  "version": "0.38.0",
+  "version": "0.39.0",
   "description": "Promisified 7digital API client for nodeJS",
   "homepage": "https://github.com/7digital/7digital-api",
   "repository": {

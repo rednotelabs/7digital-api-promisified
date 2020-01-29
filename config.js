@@ -45,5 +45,9 @@ module.exports = {
 	// A hash of custom headers to provide with every request made to the API
 	//
 	// @type {Object} A hash containing the headers
-	headers: {}
+	headers: {},
+
+	// @type {Boolean} Forces some props that API may return either as value or
+	// array of values depending on whether there's one or more of them to always return as array.
+	ensureCollections: true,
 };
