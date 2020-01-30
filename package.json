@@ -1,17 +1,17 @@
 {
-  "name": "7digital-api-promisified",
+  "name": "@rednote/7digital-api-promisified",
   "version": "0.39.0",
   "description": "Promisified 7digital API client for nodeJS",
-  "homepage": "https://github.com/7digital/7digital-api",
+  "homepage": "https://github.com/rednotelabs/7digital-api-promisified",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ruzicka/7digital-api-promisified.git"
+    "url": "git://github.com/rednotelabs/7digital-api-promisified.git"
   },
   "docs": {
-    "url": "https://github.com/ruzicka/7digital-api-promisified/blob/master/README.md"
+    "url": "https://github.com/rednotelabs/7digital-api-promisified/blob/master/README.md"
   },
   "bugs": {
-    "url": "https://github.com/ruzicka/7digital-api-promisified/issues"
+    "url": "https://github.com/rednotelabs/7digital-api-promisified/issues"
   },
   "keywords": [
     "api",
